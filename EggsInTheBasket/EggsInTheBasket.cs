@@ -12,7 +12,7 @@ namespace EggsInTheBasket
         {
             Console.WriteLine("The minimum number of Eggs in the basket given the situation is");
             for (int numberOfEggs = 1; ; numberOfEggs++) {
-                if ((numberOfEggs % 1==0) && (numberOfEggs % 3==0) && (numberOfEggs % 7 ==0) && (numberOfEggs % 9==0)) {
+                if ((numberOfEggs % 1==0) && (numberOfEggs % 2 == 1) && (numberOfEggs % 3==0)  && (numberOfEggs % 4 == 1) && (numberOfEggs % 5+1 == 1) && (numberOfEggs % 6 == 3) && (numberOfEggs % 7 ==0) && (numberOfEggs % 8 == 1) && (numberOfEggs % 9==0)) {
                     Console.WriteLine(numberOfEggs);
                     break;
                 }
